@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+header nav a:hover {
+    background-color: #ffa500;
+}
+
+/* Main Section */
+main {
+    padding: 2rem;
+}
+
+/* Section Titles */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #eee;
+}
+
+#hub h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.first, .second, .third {
+    margin: 2rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.first p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Image Sections */
+.second section, .third section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 1rem;
+}
+
+.second img, .third img {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.second img:hover, .third img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    text-align: left;
+}
+
+.footer h3 {
+    color: #ffa500;
+    font-size: 1.2rem;
+}
+
+.footer p, .footer a {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ffa500;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 0.5rem 0;
+}
+
+.footer ul li a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ffa500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second section, .third section {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}

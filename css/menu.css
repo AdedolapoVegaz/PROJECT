@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    background-color: black;
+    color: rgb(208, 182, 34);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+header nav a:hover {
+    background-color: #ffa500;
+}
+
+.menu-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.menu-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Grid Layout */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.menu-item {
+    background-color: #1a1a1a;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.5);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #222;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #secondd img {
+        width: 45%;
+    }
+}

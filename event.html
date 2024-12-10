@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/event.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="home" href="home.html">HOME</a>
+            <a class="events" href="event.html">EVENTS</a>
+            <a class="menu" href="menu.html">MENU</a>
+            <a class="reserve" href="reservation.html">RESERVATIONS</a>
+            <a class="member" href="membership.html">MEMBERSHIP</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="firstt">
+            <h1>TAKE A PEEK INSIDE </h1>
+            <hr>
+        </div>
+
+        <div id="secondd">
+            <img src="images/Door-3-HQ-5-768x512 (1).jpg" class="imagess">
+            <img src="images/Door-3-HQ-10-768x512 (1).jpg" class="imagess">
+            <img src="images/Door-3-HQ-13-768x512 (1).jpg" class="imagess">
+            <img src="images/Door-3-HQ-10-768x512 (1).jpg" class="imagess">
+            <img src="images/Door-3-HQ-25-768x512 (1).jpg" class="imagess">
+            <img src="images/Door-3-HQ-23-768x512 (1).jpg" class="imagess">
+            <img src="images/Door-3-HQ-22-768x512.jpg" class="imagess">
+            <img src="images/Door-3-HQ-20-768x512.jpg" class="imagess">
+            <img src="images/Door-3-HQ-19-768x512.jpg" class="imagess">
+            <img src="images/Door-3-HQ-17-768x512.jpg" class="imagess">
+            <img src="images/Door-3-HQ-16-768x512.jpg" class="imagess">
+            <img src="images/Door-3-HQ-15-768x512.jpg" class="imagess">
+        </div>
+
+        <div>
+            <p class="text">Want to rent out our space? We would love to host you! From private events to photo or video shoots, Door 
+                Three offers you the ability to book our venue for all your needs. 
+                Please fill out the form below and a representative from our team will reach out to you as soon as possible. </p>
+        </div>
+
+        <h2>Book an Event</h2>
+        <form id="eventBookingForm" autocomplete="on">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            
+            <label for="event">Select Event:</label>
+            <select id="event" name="event" required>
+                <option value="" disabled selected>Select an event</option>
+                <option value="Live Music Night">Live Music Night - March 15, 2025</option>
+                <option value="Comedy Night">Comedy Night - March 22, 2025</option>
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Any special requests or questions?"></textarea>
+            
+            <button type="submit">Book Event</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>© 2024 Entertainment Hub</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="js/event.js"></script>
+</body>
+</html>
+
+

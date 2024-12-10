@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #eee;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+header nav a:hover {
+    background-color: #ffa500;
+}
+
+h1{
+    text-align: center;
+    color: #d4ddde;
+}
+
+footer {
+
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #secondd img {
+        width: 45%;
+    }
+}
